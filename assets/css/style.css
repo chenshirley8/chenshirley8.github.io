@@ -1,5 +1,6 @@
 body{
     margin:0 auto;
+    font-family:Open Sans;
 }
 
 /* NavBar things*/
@@ -30,7 +31,7 @@ body{
     color:white;
     font-family: Open Sans;
     font-weight: 300;
-    font-size:14px;
+    font-size:16px;
     float:left;
     width:700px;
     position: relative;
@@ -44,13 +45,13 @@ ul{
 .category-head {
     float:left;
     padding: 10px;
-    padding-left: 35px;
-    padding-right:35px;
+    padding-left: 40px;
+    padding-right:40px;
 }
 
 
 /*Compelling image*/
-.img-scaled{
+.Aon2{
     width:100%;
     height:100%;
     margin-top: 65px;
@@ -71,10 +72,11 @@ ul{
     font-weight: 300;
     font-size: 36px;
     position:absolute;
-    width: 250px;
+    width: 300px;
     height: 200px;
-    top: 170px;
-    left: 70px; 
+    top: 190px;
+    left: 90px;
+    text-align: center; 
 }
 
 .section{
@@ -83,13 +85,235 @@ ul{
     position:relative;
 }
 
+#quote-section{
+    height:300px;
+}
+
 #fact-text{
     position:absolute;
     width:500px;
     height:300px;
     left:calc(50% - 250px);
-    top:calc(50% - 150px);
+    top:calc(50% - 65px);
+    font-family: Open Sans;
+    font-size: 36px;
 }
+
+.sunset{
+    height:500px;
+    width:100%;
+    -webkit-filter: blur(3px)
+}
+#overlay { 
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 100;
+    background-color: rgba(0,0,0,0.4);
+}
+
+#mission-title{
+    font-size:36px;
+    position:absolute;
+    left: calc(50% - 130px);
+    top:calc(50% - 150px);
+    color:white;
+    text-align:center;
+}
+
+#mission-statement{
+    position:absolute;
+    width:500px;
+    height:160px;
+    left:calc(50% - 250px);
+    top:calc(50% - 80px);
+    font-size: 24px;
+    color:white;
+    text-align:center;
+}
+
+
+
+/* Ultimate fribsee info */
+
+
+.fribsee-container{
+    width:100%;
+    height:500px;
+}
+.fribsee-blue-container{
+    width:50%;
+    float:left;
+    background-color: #499efc;
+    height:500px;
+    position:relative;
+    color:white;
+
+}
+
+.frisbee-image-container{
+    float:right;
+    width:50%;
+    height:500px;
+    object-fit:cover;
+    
+}
+.referree{
+    height: 500px;
+    width:100%;
+}
+
+
+
+#ultimate-title{
+    font-size: 36px;
+    /* padding: 5px; */
+    top:100px;
+    margin: 70px;
+    margin-bottom: 20px;
+}
+
+#description{
+    /* top: 80px; */
+    line-height:30px;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+
+.fribsee-button{
+    margin: 0 auto;
+    top: 340px;
+    cursor: pointer;
+    padding: 20px 70px;
+    left:calc(50% - 130px);
+    background-color: white;
+    position:absolute;
+    text-align:center;
+    display:inline-block;
+    border: 2px solid white;
+    background: transparent;
+    font-size:16px;
+    height:20px;
+}
+
+
+.programs-container{
+    width:100%;
+    height:650px;
+}
+.title{
+    font-size: 24px;
+    margin-left:150px;
+    font-weight: 400px
+    
+}
+
+.p_buttons{
+    width:33%;
+    height:650px;
+    display:inline-block;
+    padding-top:40px;
+
+}
+.p_img{
+    width:33%;
+    margin-left:18px;
+    padding-top: 10px;
+}
+
+#camps{
+    margin-left: 120px;
+}
+
+.title-container{
+    width:100%;
+    font-size: 36px;
+    padding-top: 60px;
+    margin-left:500px;
+
+}
+
+
+
+
+
+/* Donate section*/
+
+.donate-container{
+    width:100%;
+    height:500px;
+}
+
+.call-container{
+    width:50%;
+    float:right;
+    height:500px;
+    position:relative;
+    background-color:#E8E6D6;
+}
+.call-title{
+    font-size: 36px;
+    margin-left: 40px;
+    margin-right:40px;
+    padding-top: 40px;
+
+}
+
+.donate-image-container{
+    float:left;
+    width:50%;
+    height:500px;
+    object-fit:cover;
+    
+}
+.team{
+    height: 500px;
+    width:100%;
+}
+
+
+.donate-button{
+    cursor: pointer;
+    padding: 20px 70px;
+    left:calc(50% - 150px);
+    text-align:center;
+    display:inline-block;
+    background-color: white;
+    position:absolute;
+    border: 2px solid white;
+    background: transparent;
+    font-size:16px;
+    height:20px;
+    margin-top: 30px;
+    color: #31AA39;
+
+}
+
+.input::-webkit-input-placeholder  {
+color: black;
+}
+
+.info{
+    margin-left:40px;
+    margin-top:130px;
+}
+
+.input{
+    margin-left:40px;
+    margin-top:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
